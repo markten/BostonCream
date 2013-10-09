@@ -1,0 +1,197 @@
+# depslib dependency file v1.0
+1379854493 source:c:\users\staff\desktop\personal folders\mark\24 hours\test\main.cpp
+	<stdio.h>
+	<string>
+	<sstream>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	"Constants.h"
+	"Timer.h"
+	"Character.h"
+	"SDL_Functions.h"
+	"Map.h"
+
+1379855233 source:c:\users\staff\desktop\personal folders\mark\24 hours\test\character.cpp
+	<stdio.h>
+	<string>
+	<sstream>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	"SDL_Functions.h"
+	"Timer.h"
+	"Constants.h"
+
+1379841742 c:\users\staff\desktop\personal folders\mark\24 hours\test\sdl_functions.h
+
+1379813769 c:\users\staff\desktop\personal folders\mark\24 hours\test\timer.h
+
+1379852382 c:\users\staff\desktop\personal folders\mark\24 hours\test\constants.h
+
+1379840864 source:c:\users\staff\desktop\personal folders\mark\24 hours\test\constants.cpp
+	<stdio.h>
+	<SDL/SDL.h>
+
+1379855225 c:\users\staff\desktop\personal folders\mark\24 hours\test\character.h
+
+1379841743 source:c:\users\staff\desktop\personal folders\mark\24 hours\test\sdl_functions.cpp
+	<stdio.h>
+	<string>
+	<sstream>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1379814527 source:c:\users\staff\desktop\personal folders\mark\24 hours\test\timer.cpp
+	<stdio.h>
+	<string>
+	<sstream>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	"Constants.h"
+
+1379849344 c:\users\staff\desktop\personal folders\mark\24 hours\test\map.h
+
+1379850688 source:c:\users\staff\desktop\personal folders\mark\24 hours\test\map.cpp
+	<stdio.h>
+	<string>
+	<sstream>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	"SDL_Functions.h"
+	"Timer.h"
+	"Constants.h"
+
+1379855308 source:f:\24 hours\test\main.cpp
+	<stdio.h>
+	<string>
+	<sstream>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	"Constants.h"
+	"Timer.h"
+	"Character.h"
+	"SDL_Functions.h"
+	"Map.h"
+
+1379852384 f:\24 hours\test\constants.h
+
+1379813770 f:\24 hours\test\timer.h
+
+1379855226 f:\24 hours\test\character.h
+
+1379841744 f:\24 hours\test\sdl_functions.h
+
+1379849346 f:\24 hours\test\map.h
+
+1381296021 source:c:\users\mark\dropbox\[code]\boston creme\main.cpp
+	<stdio.h>
+	<string>
+	<sstream>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	"Constants.h"
+	"Timer.h"
+	"Character.h"
+	"SDL_Functions.h"
+	"Map.h"
+
+1381282549 c:\users\mark\dropbox\[code]\boston creme\constants.h
+
+1379813770 c:\users\mark\dropbox\[code]\boston creme\timer.h
+
+1381293897 c:\users\mark\dropbox\[code]\boston creme\character.h
+
+1379841744 c:\users\mark\dropbox\[code]\boston creme\sdl_functions.h
+
+1379849346 c:\users\mark\dropbox\[code]\boston creme\map.h
+
+1381294564 source:c:\users\mark\dropbox\[code]\boston creme\character.cpp
+	<stdio.h>
+	<string>
+	<sstream>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	"SDL_Functions.h"
+	"Timer.h"
+	"Constants.h"
+
+1379850690 source:c:\users\mark\dropbox\[code]\boston creme\map.cpp
+	<stdio.h>
+	<string>
+	<sstream>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	"SDL_Functions.h"
+	"Timer.h"
+	"Constants.h"
+
+1381294566 source:c:\users\mark\dropbox\[code]\boston creme\sdl_functions.cpp
+	<stdio.h>
+	<string>
+	<sstream>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1381294563 source:c:\users\mark\dropbox\[code]\boston creme\timer.cpp
+	<stdio.h>
+	<string>
+	<sstream>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	"Constants.h"
+
+1381296157 source:c:\users\mark\desktop\boston creme\character.cpp
+	<stdio.h>
+	<string>
+	<sstream>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	"SDL_Functions.h"
+	"Timer.h"
+	"Constants.h"
+
+1379841744 c:\users\mark\desktop\boston creme\sdl_functions.h
+
+1379813770 c:\users\mark\desktop\boston creme\timer.h
+
+1381296370 c:\users\mark\desktop\boston creme\constants.h
+
+1379850690 source:c:\users\mark\desktop\boston creme\map.cpp
+	<stdio.h>
+	<string>
+	<sstream>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	"SDL_Functions.h"
+	"Timer.h"
+	"Constants.h"
+
+1381294566 source:c:\users\mark\desktop\boston creme\sdl_functions.cpp
+	<stdio.h>
+	<string>
+	<sstream>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+
+1381294563 source:c:\users\mark\desktop\boston creme\timer.cpp
+	<stdio.h>
+	<string>
+	<sstream>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_ttf.h>
+	"Constants.h"
+
