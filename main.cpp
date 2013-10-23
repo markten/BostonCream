@@ -13,7 +13,7 @@
 
 // Define surfaces
 
-    SDL_Surface* test              = NULL;
+    SDL_Surface* test               = NULL;
     SDL_Surface* screen             = NULL;
     SDL_Surface* bostonCremeSprite  = NULL;
     SDL_Surface* mapsheet           = NULL;
