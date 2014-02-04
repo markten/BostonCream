@@ -1,9 +1,8 @@
 import pygame
-import game
-import mainmenu
-
-if __name__ == "__main__":
-    main()
+from constants import *
+from game import Game
+from mainmenu import MainMenu
+from player import *
 
 def main():
     
@@ -16,28 +15,36 @@ def main():
     screen = pygame.display.set_mode(WINDOW_SIZE)
     pygame.display.set_caption("Boston Cream")
     screen.fill(BLACK)
-    font = pygame.font.Font("/fonts/nokiafc22.ttf", 12)
     
     ### Create game clock
     clock = pygame.time.Clock()
     
     ### Create menu and game objects
-    menu = MainMenu()
-    game = Game()
+    print("Building menu")
+    menu = MainMenu(screen)
+    print("Building game")
+    game = Game(screen)
+    
+    
     
     while not done:
         
         if inMenu:
-            done = menu.handle_events()
+            done, inMenu = menu.handle_events()
             menu.handle_logic()
             menu.handle_graphics()
         
-        if not inMenu:
-            done = game.handle_events()
+        elif not inMenu:
+            done, inMenu = game.handle_events()
             game.handle_logic()
             game.handle_graphics()
             
         else:
             print("Error: Neither in menu or in game...")
+            
+        clock.tick(FPS)
     
     pygame.quit()
+    
+if __name__ == "__main__":
+    main()
